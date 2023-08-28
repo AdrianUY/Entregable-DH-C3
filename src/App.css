@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form select {
+  background-color:rgb(88, 224, 239) ;
+  padding: 8px;
+  border-radius: 4px;
+  margin: 5px 0;
+  border: solid 1px #e6e6e6;
+}
+
+form button {
+  background-color: rgb(176, 176, 248);
+  margin: 10px 15px 0;
+}
+
+.error {
+  border: rgb(158, 60, 60) solid 1px;
+}
+
+.App form .errorMessage {
+  color: rgb(141, 19, 19);
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  margin-top: -3px;
+}
